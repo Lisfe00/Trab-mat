@@ -2,7 +2,7 @@ MODE_ENCRYPT = 1
 MODE_DECRYPT = 0
 
 def caesar(data, key, mode):
-    alphabet = 'abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÕÍÚÇ '
+    alphabet = 'abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÔÕÍÚÇ '
     new_data = ''
     for c in data:
         index = alphabet.find(c)
