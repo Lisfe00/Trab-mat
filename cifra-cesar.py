@@ -2,7 +2,7 @@ MODE_ENCRYPT = 1
 MODE_DECRYPT = 0
 
 def caesar(data, key, mode):
-    alphabet = 'abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÕÍÚÇ'
+    alphabet = 'abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÕÍÚÇ '
     new_data = ''
     for c in data:
         index = alphabet.find(c)
@@ -16,7 +16,7 @@ def caesar(data, key, mode):
 
 # Tests
 key = 5
-original = 'a ligeira raposa marrom saltou sobre o cachorro cansado'
+original = 'A professora passou um trabalho'
 print('  Original:', original)
 ciphered = caesar(original, key, MODE_ENCRYPT)
 print('Encriptada:', ciphered)

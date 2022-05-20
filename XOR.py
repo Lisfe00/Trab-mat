@@ -13,7 +13,7 @@ def main():
     key = b'ICE'
       
     print("Plain text: ", plain_text) 
-    print("Encrypted as: ", repeated_key_xor(plain_text, key)) 
+    print("Encrypted as: ", repeated_key_xor(plain_text, key).hex()) 
   
 if __name__ == '__main__': 
     main() 
