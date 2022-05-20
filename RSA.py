@@ -62,6 +62,6 @@ M1 = (S**e) % n
   
   
 if M == M1: 
-    print("As M = M1, Accept the\ message sent by Alice") 
+    print("As M = M1, Accept the\ message sent by Luis") 
 else: 
-    print("As M not equal to M1,\ Do not accept the message\ sent by Alice ") 
+    print("As M not equal to M1,\ Do not accept the message\ sent by Luis ") 
