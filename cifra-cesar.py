@@ -22,3 +22,4 @@ ciphered = caesar(original, key, MODE_ENCRYPT)
 print('Encriptada:', ciphered)
 plain = caesar(ciphered, key, MODE_DECRYPT)
 print('Decriptada:', plain)
+
