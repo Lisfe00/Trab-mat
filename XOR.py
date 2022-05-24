@@ -12,8 +12,9 @@ def main():
     plain_text = b'Hello World!!'
     key = b'ICE'
       
-    print("Plain text: ", plain_text) 
-    print("Encrypted as: ", repeated_key_xor(plain_text, key).hex()) 
+    print("\n Plain text: ", plain_text) 
+    print("\n Encrypted as: ", repeated_key_xor(plain_text, key).hex()) 
+    print("\n")
   
 if __name__ == '__main__': 
     main() 

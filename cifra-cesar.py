@@ -17,9 +17,9 @@ def caesar(data, key, mode):
 # Tests
 key = 5
 original = 'A professora passou um trabalho'
-print('  Original:', original)
+print('\n   Original:', original)
 ciphered = caesar(original, key, MODE_ENCRYPT)
-print('Encriptada:', ciphered)
+print('\n Encriptada:', ciphered)
 plain = caesar(ciphered, key, MODE_DECRYPT)
-print('Decriptada:', plain)
-
+print('\n Decriptada:', plain)
+print('\n chave usada:', key)

@@ -49,7 +49,7 @@ e = int(313)
 r, d = exteuclid(Pn, e) 
 if r == 1: 
     d = int(d) 
-    print("decryption key is: ", d) 
+    print("\n decryption key is: ", d) 
       
 else: 
     print("Multiplicative inverse for\ the given encryption key does not \ exist. Choose a different encrytion key ") 
@@ -62,6 +62,8 @@ M1 = (S**e) % n
   
   
 if M == M1: 
-    print(" M = M1, Aceite, a messagem enviada por Luis") 
+    print("\n M = M1, Aceite, a messagem enviada por Luis") 
+    print("\n")
 else: 
-    print(" M diferente M1, não aceite essa mensagem, não foi enviada por Luis ") 
+    print("\n M diferente M1, não aceite essa mensagem, não foi enviada por Luis") 
+    print("\n")
