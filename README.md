@@ -4,7 +4,7 @@ Repositório de sistemas de criptografia para o trabalho de fundamentos matemati
 
 Sistemas de criptografia desenvolvidos em python 3.8.2
 
-Grupo de desenvolvimento do trabalho
+Grupo de desenvolvimento do trabalho 
 
 * Esthéfani Possamai 
 * Gabriel Alves Atanasio
