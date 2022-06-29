@@ -16,7 +16,7 @@ def caesar(data, key, mode):
 
 # Tests
 key = 5
-original = 'A professora passou um trabalho'
+original = 'hello world'
 print('\n   Original:', original)
 ciphered = caesar(original, key, MODE_ENCRYPT)
 print('\n Encriptada:', ciphered)
