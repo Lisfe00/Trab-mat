@@ -24,7 +24,3 @@ plain = caesar(ciphered, key, MODE_DECRYPT)
 print('\n Decriptada:', plain)
 print('\n chave usada:', key)
 print('\n')
-
-
-
-luis
